@@ -120,7 +120,7 @@ spec:
   values:
     ingress:
       hosts:
-        - podinfo.staging
+        - host: podinfo.staging
 ```
 
 Note that with ` version: ">=1.0.0-alpha"` we configure Flux to automatically upgrade
@@ -141,7 +141,7 @@ spec:
   values:
     ingress:
       hosts:
-        - podinfo.production
+        - host: podinfo.production
 ```
 
 Note that with ` version: ">=1.0.0"` we configure Flux to automatically upgrade
